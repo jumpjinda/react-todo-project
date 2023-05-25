@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+.form-container {
+  box-sizing: border-box;
+  min-width: 400px;
+  max-width: 70%;
+  height: auto;
+  padding: 0 20px 20px 20px;
+  border: 1px solid #afeeee82;
+  border-radius: 10px;
+  background-color: #afeeee82;
+  grid-column: 1;
+}
+
+#title, #description, #category {
+  background-color: white;
+}
+
+.button-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#date-picker {
+  height: 55px;
+  width: 96%;
+  border: 1px solid rgb(205, 204, 204);
+  border-radius: 4px;
+  font-size: 1rem;
+  padding-left: 10px;
+  font-weight: bold;
+}
+
+#date-picker::placeholder {
+  color: rgb(152, 151, 151);
+  font-weight: normal;
+}
