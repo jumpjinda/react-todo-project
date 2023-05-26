@@ -29,12 +29,9 @@
   cursor: pointer;
 }
 
-.detail-false, .detail-true {
+.detail {
+  padding-left: 25px;
   font-style: italic;
-}
-
-.detail-false {
-  display: none;
 }
 
 .detail-true {
