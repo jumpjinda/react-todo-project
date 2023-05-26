@@ -23,7 +23,7 @@ export function TodoForm({ addTodo }) {
 
     if (title === "") return;
 
-    // Use function from App.jsx and pass argument in it then receive object value from function
+    // Call function from App.jsx and pass argument in it
     addTodo(title, date, description, category);
 
     setTitle("");

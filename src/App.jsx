@@ -21,9 +21,9 @@ const App = () => {
   }, [todos]);
 
   // Create function to setTodos for child component and pass it as props
-  // recieve argument from TodoForm component and implement then return object value to TodoForm
+  // Recieve argument from TodoForm component and implement then return object value that TodoList can use
   function addTodo(title, date, description, category) {
-    // setTodos in App.jsx for pass todos object to TodoList
+    // setTodos in App.jsx to pass todos object to TodoList
     setTodos((currentTodos) => {
       return [
         ...currentTodos,
